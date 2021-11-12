@@ -108,7 +108,14 @@ body{
     background-blend-mode: lighten;
     padding: 12px 15px;
     border-radius: 8px;
+    margin-top: 14px;
+    justify-content: center;
+    text-align: center;
     color: #989898;
+}
+.cta:hover{
+    background-color: gray;
+    color:#000;
 }
 /*informacion*/
 .info{
@@ -184,6 +191,8 @@ body{
     color: white;
     text-decoration:overline;
     padding-top: 20px;
+    padding-bottom: 2px;
+    margin-bottom: 0px;
 }
 .galeria.contenedor {
     padding-top: 8px;
@@ -203,6 +212,7 @@ body{
 .last-section .contenedor-textos-main{
     width: 40%;
 }
+
 
 /*footer*/
 footer{
@@ -243,12 +253,11 @@ input[type="submit"]{
     width: 120px;
     text-align: center;
     padding: 14px 0;
+    color: white;
+    background: #000;
 }input[type="submit"]:hover{
     cursor: pointer;
-    color: aqua;
-    
-}
-/*wave*/
-.svg-wave{
+    color:white;
+    background-color: gray;
     
 }
